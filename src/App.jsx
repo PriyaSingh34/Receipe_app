@@ -7,6 +7,7 @@ import home2 from "./assets/home2.jpg";
 import home3 from "./assets/home3.jpg";
 import "./App.css";
 import Cards from "./components/Cards.jsx";
+import { FcLike } from "react-icons/fc";
 
 import { getAllRecepies, setRecipeDetails } from "./feature/recipesSlice.js";
 import RecipeDetails from "./components/RecipeDetails.jsx";
@@ -69,11 +70,14 @@ function App() {
             Recipes
           </h1>
           <h1
-            className="text-5xl font-bold text-end text-white cursor-pointer "
+            className="text-5xl font-bold text-end text-white"
             onClick={toggleLike}
           >
             {" "}
-            Fav
+            <span className="flex gap-2">
+              {" "}
+              <FcLike /> Fav
+            </span>
           </h1>
         </div>
 
