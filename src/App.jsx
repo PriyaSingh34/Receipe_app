@@ -78,7 +78,7 @@ function App() {
         </div>
 
         <div
-          className={`absolute z-[30] transition-all duration-700 right-0 md:right-[5%] bg-slate-50  shadow-2xl max-w-lg w-full h-auto rounded-md ${
+          className={`absolute z-[42] transition-all duration-700 right-0 md:right-[5%] bg-slate-50  shadow-2xl max-w-lg w-full h-auto rounded-md ${
             isOpenLike ? " top-28 " : " top-[-2000px]"
           }`}
         >

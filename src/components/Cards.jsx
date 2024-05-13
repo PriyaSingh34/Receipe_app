@@ -23,7 +23,7 @@ const Cards = ({ onClick, item, id }) => {
   };
 
   return (
-    <div className="relative w-96 h-60 md:w-[430px] md:h-[300px]  rounded-3xl group cursor-pointer">
+    <div className="relative w-80 h-56 md:w-[430px] md:h-[300px] rounded-3xl group cursor-pointer">
       <div className="absolute top-5 left-6 w-10 h-10">
         <p className="relative z-[40] " onClick={toggleNavbar}>
           {isOpen ? (
